@@ -1,10 +1,15 @@
-# 02 Data Transformation for real-world WMS dataset
+## 02 Data Transformation for real-world WMS dataset
 
 This is a code example to transform real work warehouse management system (WMS) data to a format that can be used for regression models. While the initial dataset includes information about picking places, e.g., a Q_PLATZ column indicating the identification number of a source location, this information can not be used for a regresssion analysis.
 
 At this point, we need to translate the real-world dataset to a format where one variable (dependent variable, independent variables, or control variables) are represented by one column. 
 
 Important: We do not change the data aggregation level which remains one pick operation at a given clock time. In case we would like to aggregate higher, we can use  pivot-like operations in R, e.g., by applying `group_by` or `summarize`.
+
+### What we will learn in this chapter
+
+In this chapter we will deal with data cleaning and data preperation for order picking data. WMS store extensive data logs for past events and order picking processes. However, before we can use these data for statistical analyis, we need to do some preperations.
+
 
 ### R packages
 
