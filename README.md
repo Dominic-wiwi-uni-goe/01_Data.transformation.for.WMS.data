@@ -1,4 +1,6 @@
-## Chapter 3: Data Transformation for real-world WMS dataset
+# Chapter 3
+
+## Data Transformation for real-world WMS dataset
 
 This is a code example to transform real work warehouse management system (WMS) data to a format that can be used for regression models. While the initial dataset includes information about picking places, e.g., a Q_PLATZ column indicating the identification number of a source location, this information can not be used for a regresssion analysis.
 
